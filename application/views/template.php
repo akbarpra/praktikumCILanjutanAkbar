@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Admin</title>
+    <title>Dashboard</title>
     <!-- Favicon-->
     <link rel="icon" href="<?=base_url()?>/assets/favicon.ico" type="image/x-icon">
 
@@ -58,7 +58,7 @@
         <div class="search-icon">
             <i class="material-icons">search</i>
         </div>
-        <input type="text" placeholder="START TYPING...">
+        <input type="text" placeholder="Mulai mencari...">
         <div class="close-search">
             <i class="material-icons">close</i>
         </div>
@@ -70,7 +70,7 @@
             <div class="navbar-header">
                 <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
                 <a href="javascript:void(0);" class="bars"></a>
-                <a class="navbar-brand" href="index.html">ADMIN</a>
+                <a class="navbar-brand" href="index.html">Dashboard</a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -119,7 +119,7 @@
                                                 <i class="material-icons">delete_forever</i>
                                             </div>
                                             <div class="menu-info">
-                                                <h4><b>Nancy Doe</b> deleted account</h4>
+                                                <h4><b>Rani Dwi</b> deleted account</h4>
                                                 <p>
                                                     <i class="material-icons">access_time</i> 3 hours ago
                                                 </p>
@@ -132,7 +132,7 @@
                                                 <i class="material-icons">mode_edit</i>
                                             </div>
                                             <div class="menu-info">
-                                                <h4><b>Nancy</b> changed name</h4>
+                                                <h4><b>Putri Shafira</b> changed name</h4>
                                                 <p>
                                                     <i class="material-icons">access_time</i> 2 hours ago
                                                 </p>
@@ -145,7 +145,7 @@
                                                 <i class="material-icons">comment</i>
                                             </div>
                                             <div class="menu-info">
-                                                <h4><b>John</b> commented your post</h4>
+                                                <h4><b>Ahmad Abdul</b> commented your post</h4>
                                                 <p>
                                                     <i class="material-icons">access_time</i> 4 hours ago
                                                 </p>
@@ -158,7 +158,7 @@
                                                 <i class="material-icons">cached</i>
                                             </div>
                                             <div class="menu-info">
-                                                <h4><b>John</b> updated status</h4>
+                                                <h4><b>Ahmad Abdul</b> updated status</h4>
                                                 <p>
                                                     <i class="material-icons">access_time</i> 3 hours ago
                                                 </p>
@@ -276,21 +276,21 @@
             <!-- User Info -->
             <div class="user-info">
                 <div class="image">
-                    <img src="<?=base_url()?>/assets/images/deva.png" width="48" height="48" alt="User" />
+                    <img src="<?=base_url()?>/assets/images/akbar.png" width="48" height="48" alt="User" />
                 </div>
                 <div class="info-container">
-                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Devano Ezra Nathaniel</div>
-                    <div class="email">Devano_Ezra_26rpl@student.smktelkom-mlg.sch.id</div>
+                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Akbar Prasetia Priatna</div>
+                    <div class="email">akbar_prasetia_26rpl@student.smktelkom-mlg.sch.id</div>
                     <div class="btn-group user-helper-dropdown">
                         <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">keyboard_arrow_down</i>
                         <ul class="dropdown-menu pull-right">
-                            <li><a href="javascript:void(0);"><i class="material-icons">person</i>Profile</a></li>
+                            <li><a href="javascript:void(0);"><i class="material-icons">person</i>Profil</a></li>
                             <li role="seperator" class="divider"></li>
-                            <li><a href="javascript:void(0);"><i class="material-icons">group</i>Followers</a></li>
-                            <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Sales</a></li>
-                            <li><a href="javascript:void(0);"><i class="material-icons">favorite</i>Likes</a></li>
+                            <li><a href="javascript:void(0);"><i class="material-icons">group</i>Pengikut</a></li>
+                            <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Belanja</a></li>
+                            <li><a href="javascript:void(0);"><i class="material-icons">favorite</i>Suka</a></li>
                             <li role="seperator" class="divider"></li>
-                            <li><a href="javascript:void(0);"><i class="material-icons">input</i>Sign Out</a></li>
+                            <li><a href="javascript:void(0);"><i class="material-icons">input</i>Keluar</a></li>
                         </ul>
                     </div>
                 </div>
@@ -299,29 +299,29 @@
             <!-- Menu -->
             <div class="menu">
                 <ul class="list">
-                    <li class="header">MAIN NAVIGATION</li>
+                    <li class="header">MENU</li>
                     <li class="active">
                         <a href="<?=base_url()?>">
                             <i class="material-icons">home</i>
-                            <span>HOME</span>
+                            <span>Beranda</span>
                         </a>
-                    </li> 
+                    </li>
                     <li>
                         <a href="<?=base_url('index.php/user/data_diri')?>">
                             <i class="material-icons">person</i>
                             <span>Biodata</span>
                         </a>
-                    </li> 
+                    </li>
                 </ul>
             </div>
             <!-- #Menu -->
             <!-- Footer -->
             <div class="legal">
                 <div class="copyright">
-                    &copy; 2016 - 2017 <a href="javascript:void(0);">User</a>
+                    &copy; 2018 - 2019 <a href="javascript:void(0);">Admin</a>
                 </div>
                 <div class="version">
-                    <b>Version: </b> 1.0.5
+                    <b>Version: </b> 1.2.7
                 </div>
             </div>
             <!-- #Footer -->
@@ -478,7 +478,7 @@
             <?php
             $this->load->view($konten);
             ?>
-            
+
         </div>
     </section>
 
